@@ -1,0 +1,66 @@
+body{
+    background-color:darkslategray;
+    background-size: cover;
+    background-position: center;
+}
+
+.Login-page{
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+
+.form{
+    position: relative;
+    background-color: blue;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 70px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.form input{
+    font-family: "Roboto", sans-serif;
+    outline: 1;
+    background-color: whitesmoke;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 5px;
+    height: 20px;
+}
+
+.form button{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 1;
+    background-color: darkgreen;
+    width: 200px;
+    border: 0;
+    padding: 15px;
+    color: beige;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.form button:hover,.form button:active{
+    background-color:darkblue
+}
+
+.form .message{
+    margin: 15px 0 0;
+    color: rgb(251, 242, 242);
+    font-size: 12px;
+}
+
+.form .message a{
+    color: darkturquoise;
+    text-decoration: none;
+}
+
+.form .Singup {
+    display:none;
+}
